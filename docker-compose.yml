@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: library_db          # ✅ Ensure DB exists before Django connects
-      MYSQL_ROOT_PASSWORD: root@123
+      MYSQL_ROOT_PASSWORD: root
     ports:
       - "3307:3306"
     volumes:
